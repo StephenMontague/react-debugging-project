@@ -15,7 +15,7 @@ const App = () => {
 			const updatedGoals = [...prevGoals];
 			updatedGoals.unshift({
 				text: enteredText,
-				id: 'goal1',
+				id: Math.random(),
 			});
 			return updatedGoals;
 		});
